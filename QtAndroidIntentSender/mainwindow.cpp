@@ -19,14 +19,8 @@ void MainWindow::on_btnClose_clicked()
     qApp->exit();
 }
 
-void MainWindow::on_btnAndroid_clicked()
+void MainWindow::on_btnSend_clicked()
 {
     Intent intent;
-    intent.send("I Love Android!");
-}
-
-void MainWindow::on_btnQt_clicked()
-{
-    Intent intent;
-    intent.send("I Love Qt!");
+    intent.send(ui->lineEdit->text());
 }

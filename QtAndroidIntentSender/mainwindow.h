@@ -18,9 +18,7 @@ public:
 private slots:
     void on_btnClose_clicked();
 
-    void on_btnAndroid_clicked();
-
-    void on_btnQt_clicked();
+    void on_btnSend_clicked();
 
 private:
     Ui::MainWindow *ui;
