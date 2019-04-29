@@ -3,8 +3,9 @@ This is an example on how to use Intents in Qt for Android with the Qt Android E
 
 Writing Android Apps with Qt
 
-For more inforamtions visit the Blog on: www.blog.noser.com
+For more informations visit the Blog post on: www.blog.noser.com
 
-# Build Settings
+Go to the release tab to download the apk's.
 
+## Build Settings
 Kit: Android for armeabi v7a Clang Qt 5.12.0 for Android ARMv7
